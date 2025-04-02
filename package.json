@@ -1,0 +1,23 @@
+{
+  "name": "appeal-innovation",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "spitfire",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "prisma": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
